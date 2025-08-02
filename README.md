@@ -1,4 +1,4 @@
-Anomaly Detection in Networks 
+# Anomaly Detection in Networks 
 
 📌 Overview
 This repository contains a machine learning project focused on detecting anomalies in network traffic data.
