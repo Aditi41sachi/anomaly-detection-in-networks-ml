@@ -1,6 +1,13 @@
 # Anomaly-detection-in-networks 
 
-📌 Overview
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![License: MIT](https://img.shields.io/badge/License-MIT-green)
+![Dataset](https://img.shields.io/badge/Dataset-CICIDS2017-orange)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)
+
+---
+
+## 📌 Overview
 This repository contains a machine learning project focused on detecting anomalies in network traffic data.
 It follows a complete data science pipeline — from data preprocessing and statistical analysis to feature selection and training ML models — to identify potential network attacks and unusual behavior.
 
@@ -61,6 +68,12 @@ Models Used: Decision Tree 🌳, Random Forest 🌲, Gradient Boosting 🚀, etc
 Metrics: Accuracy 🎯, Precision 📏, Recall 📢, F1-score 🏆.
 
 **📊 Performance comparisons between different feature sets are documented in 05_3_ml_f_measure_comparison.ipynb.**
+
+## 🚀 Future Improvements
+- Add deep learning models (LSTM, Autoencoders)
+- Improve feature selection with SHAP values
+- Deploy model as a web app using Flask/Streamlit
+
 
 ## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
