@@ -23,20 +23,25 @@ The project uses the CICIDS2017 dataset , which contains both normal and malicio
 - 🔌 **Easy Extensibility** – Add new ML algorithms with minimal code changes.  
 
 ## 📂 Project Structure
+
+```
+
 anomaly-detection-in-networks-ml/
-├── 01_preprocessing.ipynb # Data cleaning and preprocessing
-├── 02_statistics.ipynb # Dataset exploration and statistics
-├── 03_attack_filter.ipynb # Extract attack-specific traffic
-├── 04_1_feature_selection_for_attack_files.ipynb # Feature selection for attack data
-├── 04_2_feature_selection_for_all_data.ipynb # Feature selection for all data
-├── 05_1_machine_learning_implementation_for_attack_files.ipynb # ML on attack data
-├── 05_2_machine_learning_implementation_with_18_feature.ipynb # ML with 18 features
-├── 05_3_machine_learning_implementation_with_7_feature.ipynb # ML with 7 features
-├── 05_3_ml_f_measure_comparison.ipynb # Compare F-measure scores
-├── 05_4_machine_learning_implementation_final.ipynb # Final refined ML model
-├── requirements.txt # Python dependencies
-├── LICENSE # License file
-└── README.md # Project documentation
+├── 01_preprocessing.ipynb                                          # Data cleaning and preprocessing
+├── 02_statistics.ipynb                                             # Dataset exploration and statistics
+├── 03_attack_filter.ipynb                                          # Extract attack-specific traffic
+├── 04_1_feature_selection_for_attack_files.ipynb                   # Feature selection for attack data
+├── 04_2_feature_selection_for_all_data.ipynb                       # Feature selection for all data
+├── 05_1_machine_learning_implementation_for_attack_files.ipynb     # ML on attack data
+├── 05_2_machine_learning_implementation_with_18_feature.ipynb      # ML with 18 features
+├── 05_3_machine_learning_implementation_with_7_feature.ipynb       # ML with 7 features
+├── 05_3_ml_f_measure_comparison.ipynb                              # Compare F-measure scores
+├── 05_4_machine_learning_implementation_final.ipynb                # Final refined ML model
+├── requirements.txt                                                # Python dependencies
+├── LICENSE 
+└── README.md 
+
+```
 
 ## 📂 Notebook Workflow
 | 📁 Notebook                                                   | 📝 Description                                                                            |
