@@ -1,12 +1,12 @@
-# Anomaly Detection in Networks 
+# Anomaly-detection-in-networks 
 
 📌 Overview
 This repository contains a machine learning project focused on detecting anomalies in network traffic data.
-It follows a complete data science pipeline — from data preprocessing 🧹 and statistical analysis 📊 to feature selection 🎯 and training ML models 🤖 — to identify potential network attacks and unusual behavior.
+It follows a complete data science pipeline — from data preprocessing and statistical analysis to feature selection and training ML models — to identify potential network attacks and unusual behavior.
 
-The project uses the CICIDS2017 dataset 🛡️, which contains both normal and malicious network traffic, to simulate real-world cybersecurity detection tasks.
+The project uses the CICIDS2017 dataset , which contains both normal and malicious network traffic, to simulate real-world cybersecurity detection tasks.
 
-📂 Project Structure
+## 📂 Project Structure
 | 📁 Notebook                                                   | 📝 Description                                                                            |
 | ------------------------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | `01_preprocessing.ipynb`                                      | Loads raw CICIDS2017 CSV files and cleans, merges, and prepares the dataset for analysis. |
@@ -21,24 +21,26 @@ The project uses the CICIDS2017 dataset 🛡️, which contains both normal and 
 | `05_4_machine_learning_implementation_final.ipynb`            | Final refined ML model with best parameters.                                              |
 
 
-📊 Dataset
+## 📊 Dataset
 1. Name: CICIDS2017 (Canadian Institute for Cybersecurity)
 2. Description: Contains both benign and malicious network traffic data 💻, including attacks such as DDoS, Brute Force, Botnet, and more.
 3. Requirements:
-    📥 Download dataset from: CICIDS2017 Official Website
+    📥 **Download dataset from:** [CICIDS2017 Official Website](https://www.unb.ca/cic/datasets/nsl.html)
     📂 Place raw CSV files in a folder named CSVs inside the project directory.
     📄 Ensure derived files (all_data.csv, attacks/ folder) are in the correct locations for each notebook.
 
-⚙️ Installation
-# Clone the repository
+## ⚙️ Installation
+1. **Clone the repository**
+```bash
 git clone https://github.com/your-username/anomaly-detection-in-networks-ml.git
 cd anomaly-detection-in-networks-ml
-
-# Install dependencies
+````
+2. **Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-▶️ Usage
-🆕 Beginner-Friendly Steps
+## ▶️ Steps
 1. 📥 Download the CICIDS2017 dataset and place it in the CSVs folder.
 2. 📑 Open notebooks in order:
        01_preprocessing.ipynb → Data cleaning
@@ -48,16 +50,16 @@ pip install -r requirements.txt
        05_Machine Learning Implementation → Model training and evaluation
 3. ▶️ Run all cells step-by-step in Jupyter Notebook or JupyterLab.
      ⚡ For Experienced Users
-         🔄 You can start from feature selection (04_*) if preprocessed data is available.
-         🛠 Modify ML model parameters inside the 05_* notebooks for experimentation.
-         🔌 The pipeline supports easy integration of new algorithms.
+         * 🔄 You can start from feature selection (04_*) if preprocessed data is available.
+         * 🛠 Modify ML model parameters inside the 05_* notebooks for experimentation.
+         * 🔌 The pipeline supports easy integration of new algorithms.
 
-📈 Results
+## 📈 Results
 Models Used: Decision Tree 🌳, Random Forest 🌲, Gradient Boosting 🚀, etc.
 
 Metrics: Accuracy 🎯, Precision 📏, Recall 📢, F1-score 🏆.
 
-📊 Performance comparisons between different feature sets are documented in 05_3_ml_f_measure_comparison.ipynb.
+**📊 Performance comparisons between different feature sets are documented in 05_3_ml_f_measure_comparison.ipynb.**
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License – see the LICENSE file for details.
