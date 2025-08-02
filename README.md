@@ -49,10 +49,11 @@ pip install -r requirements.txt
        - 04_feature_selection → Feature selection
        - 05_Machine Learning Implementation → Model training and evaluation
 3. ▶️ Run all cells step-by-step in Jupyter Notebook or JupyterLab.
-     ⚡ For Experienced Users
-         - 🔄 You can start from feature selection (04_*) if preprocessed data is available.
-         - 🛠 Modify ML model parameters inside the 05_* notebooks for experimentation.
-         - 🔌 The pipeline supports easy integration of new algorithms.
+
+## ⚡ For Experienced Users
+- 🔄 You can start from feature selection (04_*) if preprocessed data is available.
+- 🛠 Modify ML model parameters inside the 05_* notebooks for experimentation.
+- 🔌 The pipeline supports easy integration of new algorithms.
 
 ## 📈 Results
 Models Used: Decision Tree 🌳, Random Forest 🌲, Gradient Boosting 🚀, etc.
