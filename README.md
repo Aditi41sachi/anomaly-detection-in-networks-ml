@@ -25,9 +25,9 @@ The project uses the CICIDS2017 dataset , which contains both normal and malicio
 1. Name: CICIDS2017 (Canadian Institute for Cybersecurity)
 2. Description: Contains both benign and malicious network traffic data 💻, including attacks such as DDoS, Brute Force, Botnet, and more.
 3. Requirements:
-    📥 **Download dataset from:** [CICIDS2017 Official Website](https://www.unb.ca/cic/datasets/nsl.html)
-    📂 Place raw CSV files in a folder named CSVs inside the project directory.
-    📄 Ensure derived files (all_data.csv, attacks/ folder) are in the correct locations for each notebook.
+    - 📥 **Download dataset from:** [CICIDS2017 Official Website](https://www.unb.ca/cic/datasets/nsl.html)
+    - 📂 Place raw CSV files in a folder named CSVs inside the project directory.
+    - 📄 Ensure derived files (all_data.csv, attacks/ folder) are in the correct locations for each notebook.
 
 ## ⚙️ Installation
 1. **Clone the repository**
@@ -43,16 +43,16 @@ pip install -r requirements.txt
 ## ▶️ Steps
 1. 📥 Download the CICIDS2017 dataset and place it in the CSVs folder.
 2. 📑 Open notebooks in order:
-       01_preprocessing.ipynb → Data cleaning
-       02_statistics.ipynb → Data exploration
-       03_attack_filter.ipynb → Extract attacks
-       04_feature_selection → Feature selection
-       05_Machine Learning Implementation → Model training and evaluation
+       - 01_preprocessing.ipynb → Data cleaning
+       - 02_statistics.ipynb → Data exploration
+       - 03_attack_filter.ipynb → Extract attacks
+       - 04_feature_selection → Feature selection
+       - 05_Machine Learning Implementation → Model training and evaluation
 3. ▶️ Run all cells step-by-step in Jupyter Notebook or JupyterLab.
      ⚡ For Experienced Users
-         * 🔄 You can start from feature selection (04_*) if preprocessed data is available.
-         * 🛠 Modify ML model parameters inside the 05_* notebooks for experimentation.
-         * 🔌 The pipeline supports easy integration of new algorithms.
+         - 🔄 You can start from feature selection (04_*) if preprocessed data is available.
+         - 🛠 Modify ML model parameters inside the 05_* notebooks for experimentation.
+         - 🔌 The pipeline supports easy integration of new algorithms.
 
 ## 📈 Results
 Models Used: Decision Tree 🌳, Random Forest 🌲, Gradient Boosting 🚀, etc.
